@@ -1,0 +1,513 @@
+
+
+.mainContainer{
+
+
+    width: 99.9vw;
+    max-width: 100vw;
+    margin: 0 auto;
+    display: grid; 
+    place-content: center;
+    overflow-x: hidden !important;
+    margin-top: -5.5rem;
+
+    color: white !important; 
+
+    
+
+    
+
+}
+
+
+
+.featureBlock{
+
+    display: flex;  
+    position: relative;
+
+    margin: 10rem auto; 
+    width: 70vw; 
+
+
+
+}
+
+
+
+.image{
+
+
+    height: 70.5vh;
+
+    width: 423px;
+
+
+
+
+
+}
+
+
+.textSection{
+    /*position: absolute;
+    */transform: translate(0rem, 1.6rem) ;
+    /* -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:; */
+
+    margin-left: 122px; 
+
+}
+
+
+
+.header{
+
+
+    font-size: clamp(1.25rem, 1rem + 3vw, 3.5rem);
+
+    width: 15vw; 
+    line-height: 1.2;
+    font-weight: 400;
+
+
+
+}
+
+
+
+.firstTextBlock{
+
+
+    width: 25vw;
+    font-size: clamp(1.1rem, 1rem + 2vw, 1.5rem);
+    text-align: left;
+
+
+}
+
+
+
+.secondTextBlock{
+
+
+
+    width:25vw; 
+    font-size: clamp(1.1rem, 1rem + 2vw, 1.2rem);
+
+
+
+
+
+}
+
+
+.book{
+    margin-top: 54px;
+    height: 45px;
+    width: 12rem;
+    border-radius:33px;
+    -webkit-border-radius:33px;
+    -moz-border-radius:33px;
+    -ms-border-radius:33px;
+    -o-border-radius:33px;
+    
+    color: white; 
+    text-transform: uppercase;
+    background-color: transparent;
+    outline: 1px solid grey;
+    border: none !important;
+    cursor: pointer;
+}
+
+
+
+
+@media(max-width: 1280px) and (min-width: 1000px) {
+
+.textSection{
+
+
+    margin-top: -1rem; 
+    margin-left: 1rem; 
+    outline: 4px solid lime; 
+
+
+}
+
+.header{
+
+
+    width: 35vw; 
+
+
+
+}
+
+.firstTextBlock{
+
+    width: 40vw; 
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 990px){
+
+    .featureBlock{
+
+
+
+        display: inline-block;  
+        position: relative;
+    
+        margin: 10rem auto; 
+        /* width: 90vw;  */
+        width: max-content; 
+
+    
+    
+    }
+
+    /* Adjust the image dimensions here  */
+    .image{
+
+
+        /* height: 70.5vh;
+    
+        width: 423px; */
+
+        width: 70vw !important; 
+        height: 120vh; 
+
+    
+    
+    
+    
+    
+    }
+
+    /* Adjust the text blocks here  */
+    
+.textSection{
+
+    margin-left: 0 !important;
+
+}
+
+
+
+.header{
+
+
+    font-size: clamp(1.25rem, 1rem + 3vw, 3.5rem);
+
+    width: 30vw; 
+    line-height: 1.2;
+    font-weight: 400;
+
+
+
+}
+
+
+
+.firstTextBlock{
+
+    /* Increase the width here  */
+    width: 60vw;
+    /* Reduce the font size here  */
+    font-size: clamp(1.1rem, 1rem + 2vw, 1.5rem);
+    /* Center Align the text here */
+    text-align: left;
+
+
+}
+
+
+
+.secondTextBlock{
+
+
+    /* Increase the clamp here  */
+    width: 60vw;
+
+    /* Reduce the font size here  */
+    font-size: clamp(1.1rem, 1rem + 2vw, 1.2rem);
+
+}
+
+
+/* Reduce the buttons top margin here  */
+.book{
+
+
+    margin-top: 1.5rem !important;
+
+
+}
+
+
+}
+
+
+@media(max-width: 850px){
+
+
+    .image{
+
+
+        /* height: 70.5vh;
+    
+        width: 423px; */
+
+        width: 70vw !important; 
+        height: 88.7vh; 
+
+    
+    
+    
+    
+    
+    }
+
+
+
+
+
+
+
+}
+
+
+
+@media(max-width: 712px){
+
+    .image{
+
+
+        /* height: 70.5vh;
+    
+        width: 423px; */
+
+        width: 67.7vw !important; 
+        height: 64.6vh; 
+
+    
+    
+    
+    
+    
+    }
+
+
+    /* Adjust the text here  */
+        
+.textSection{
+
+    margin-left: 0 !important;
+
+}
+
+
+
+.header{
+
+
+    font-size: clamp(1rem, 1rem + 2.5vw, 3.5rem);
+
+    width: 30vw; 
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+.firstTextBlock{
+
+    width: 67.7vw !important; 
+    font-size: clamp(1.1rem, 0.8rem + 1vw, 1.5rem);
+    text-align: center;
+    font-weight: 300;
+
+
+}
+
+
+
+.secondTextBlock{
+
+
+    width: 60vw;
+    text-align: center;
+    font-size: clamp(0.9rem, 0.7rem + 1vw, 1.2rem);
+    margin: 0 auto; 
+    font-weight: 300; 
+
+    
+
+}
+
+
+.book{
+    margin: 3rem auto !important;
+    transform:translate(-50%, -50%) !important ;
+    -webkit-transform:translate(-50%, -50%) !important ;
+    -moz-transform:translate(-50%, -50%) !important ;
+    -ms-transform:translate(-50%, -50%) !important ;
+    -o-transform:translate(-50%, -50%) !important ;
+    position: absolute;
+    left: 50%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+@media(max-width: 500px){
+
+
+    .image{
+
+
+        /* height: 70.5vh;
+    
+        width: 423px; */
+
+        width: 88.7vw !important; 
+        height: 59.2vh; 
+
+    
+    
+    
+    
+    
+    }
+
+
+
+
+
+}
+
+
+
+
+@media(max-width: 400px){
+
+    .image{
+
+
+        /* height: 70.5vh;
+    
+        width: 423px; */
+
+        width: 85vw !important; 
+        height: 46.7vh; 
+
+    
+    
+    
+    
+    
+    }
+
+
+    /* Adjust the text here  */
+        
+.textSection{
+
+    margin-left: 0 !important;
+
+}
+
+
+
+.header{
+
+
+    font-size: clamp(1.5rem, 1.1rem + 2.5vw, 3.5rem);
+
+    width: 40vw; 
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0.2rem !important;
+
+
+}
+
+.firstTextBlock{
+
+    width: 70vw !important; 
+    font-size: clamp(1.1rem, 0.8rem + 1vw, 1.5rem);
+    text-align: center;
+    font-weight: 300;
+    margin: 0 auto;
+
+
+
+}
+
+
+
+.secondTextBlock{
+
+
+    width: 80vw;
+    text-align: center;
+    font-size: clamp(1.1rem, 0.7rem + 1vw, 1.2rem);
+    margin: 0.7rem auto; 
+    font-weight: 300; 
+
+
+
+    
+
+}
+
+
+.book{
+    margin: 2.3rem auto !important;
+    transform:translate(-50%, -50%) !important ;
+
+    -webkit-transform:translate(-50%, -50%) !important ;
+    -moz-transform:translate(-50%, -50%) !important ;
+    -ms-transform:translate(-50%, -50%) !important ;
+    -o-transform:translate(-50%, -50%) !important ;
+    position: absolute;
+    left: 50%;
+}
+
+
+
+
+
+
+
+
+}

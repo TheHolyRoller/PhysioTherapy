@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+
+.footer{
+     min-width: 103vw;
+     max-width: 105vw;
+     margin: 0 auto;
+     min-height: 180px;
+     height: 279px !important;
+     background-color: #111518;
+     position: relative;
+     color: white;
+    overflow: hidden !important;
+     
+
+     
+     transform: translate(0, 70.3vh) ;
+     -webkit-transform: translate(0, 70.3vh) ;
+     -moz-transform: translate(0, 70.3vh) ;
+     -ms-transform: translate(0, 70.3vh) ;
+     -o-transform: translate(0, 70.3vh) ;
+     /* margin-left: -5.5px; */
+}
+
+
+.socialHandle{
+
+    position: absolute;
+    left: 8.5%; 
+    top: 33%; 
+
+    font-size: clamp(1.1rem, 2rem + 2vw, 1.2rem);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: "Nova Cut", system-ui; */
+
+
+
+
+}
+
+.atSpan{
+
+color: #474747; 
+
+
+
+}
+
+
+
+.dateSpan{
+
+
+    color: #474747; 
+    margin-right: 5px; 
+
+
+
+
+}
+
+
+
+
+
+.logoContainer{
+    position: absolute;
+    left: 50%;
+    top: 44%; 
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -moz-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    -o-transform:translate(-50%, -50%);
+
+    outline: 4px sold red !important;
+
+    /* Make the image much bigger here */
+
+
+
+
+
+
+}
+
+
+
+
+.logo{
+
+min-width: 185px;
+height: 205px;
+
+
+}
+
+
+
+
+.iconList{
+    position: absolute;
+    right: 9.5%;
+     top: 30%;
+     display: flex;
+     list-style: none;
+     gap: 1rem; 
+     cursor: pointer; 
+     
+
+    /* transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%); */
+}
+
+
+
+.tikTok{
+
+    margin-top: -2px; 
+
+
+
+
+
+
+}
+
+
+
+.instagram{
+
+
+    font-size: 2.5rem !important;
+
+
+
+
+
+}
+
+
+
+.facebook{
+
+
+
+
+
+}
+
+
+.phoneNumber{
+
+
+    /* margin-bottom: -1rem; */
+    margin-top: 5px; 
+    /* outline: 4px solid lime; */
+
+
+
+
+}
+
+
+
+.email{
+
+
+    
+
+
+
+
+
+}
+
+
+
+
+
+.phoneNumToolTip{
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+.phoneNumLink{
+
+
+    color: inherit;
+    text-decoration: none;
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:750px){
+
+    .iconList{
+        position: absolute;
+        display: flex !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        list-style: none !important;
+        width: min-content !important;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 250%);
+        -webkit-transform: translate(-50%, 250%);
+        -moz-transform: translate(-50%, 250%);
+        -ms-transform: translate(-50%, 250%);
+        -o-transform: translate(-50%, 250%);
+}
+
+
+    .logo{
+        /*width: 8vw;
+        */min-width: 185px;
+        height: 205px;
+        position: absolute;
+        left: 50%;
+        transform:translate(-50%, -60%) ;
+        -webkit-transform:translate(-50%, -50%) ;
+        -moz-transform:translate(-50%, -60%) ;
+        -ms-transform:translate(-50%, -60%) ;
+        -o-transform:translate(-50%, -60%) ;
+        -webkit-transform:translate(-50%, -60%) ;
+}
+
+.dateSpan{
+
+
+    color: #474747; 
+    margin-right: 1px; 
+    
+
+
+
+}
+
+    
+.tikTok{
+
+    margin-top: -2px; 
+
+
+
+
+
+
+}
+
+
+
+.instagram{
+
+
+    font-size: 2.5rem !important;
+
+
+
+
+
+}
+
+
+
+.facebook{
+
+
+
+
+
+}
+
+
+.phoneNumber{
+
+
+    /* margin-bottom: -1rem; */
+    margin-top: 5px; 
+    /* outline: 4px solid lime; */
+
+
+
+
+}
+
+
+
+.email{
+
+
+    
+    /* margin-right: 2.713rem; */
+
+
+
+
+}
+
+.socialHandle{
+    position: absolute;
+    left: 50%;
+    transform:translate(-50%, 1100%) ;
+    font-size: clamp(0.8rem, 0.5rem + 0.5vw, 1rem);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 20;
+    color: white;
+    -webkit-transform:translate(-50%, 1100%) ;
+    -moz-transform:translate(-50%, 1100%) ;
+    -ms-transform:translate(-50%, 1100%) ;
+    -o-transform:translate(-50%, 1100%) ;
+}
+
+    
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

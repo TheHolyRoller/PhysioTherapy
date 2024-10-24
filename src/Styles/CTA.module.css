@@ -1,0 +1,238 @@
+
+
+
+.CTA{
+
+position: relative;
+width: 100vw; 
+height: 797px;
+
+max-width: 100; 
+
+/* color: rgb(210, 209, 218); */
+color: white !important; 
+
+
+font-size: 2rem;
+font-weight: 650;
+text-transform: uppercase;
+overflow: hidden !important;
+
+
+}
+
+
+.image{
+
+    width: 100vw;
+    height: 797px;
+    background-size: cover;
+
+}
+
+
+.header{
+    position: absolute;
+    left: 50%;
+    top: 42% !important; 
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    z-index: 4;
+
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    width: 30vw;
+    line-height: 1.2; 
+    text-align: center;
+
+
+}
+
+
+
+.button{
+    /* all: unset !important;  */
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    z-index: 20;
+    transform: translate(-50%, -50%) ;
+    -webkit-transform: translate(-50%, -50%) ;
+    -moz-transform: translate(-50%, -50%) ;
+    -ms-transform: translate(-50%, -50%) ;
+    -o-transform: translate(-50%, -50%) ;
+    width: 170px;
+    height: 50px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    /* outline: 1px solid white; */
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    background-color: transparent !important;
+
+    border: none !important;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white !important;
+    
+
+
+
+
+}
+
+
+
+@media(max-width: 1200px){
+
+
+    .header{
+        position: absolute;
+        left: 50%;
+        top: 30% !important; 
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        z-index: 4;
+    
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        width: 65vw;
+        line-height: 1.2; 
+        text-align: center;
+
+
+        /* outline: 5px solid lime; */
+    
+    
+    }
+    
+    
+    
+    .button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) ;
+        -webkit-transform: translate(-50%, -50%) ;
+        -moz-transform: translate(-50%, -50%) ;
+        -ms-transform: translate(-50%, -50%) ;
+        -o-transform: translate(-50%, -50%) ;
+        width: 170px;
+        height: 50px;
+        font-size: 1.3rem;
+        font-weight: 500;
+        outline: 1px solid white;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+
+
+
+    }
+    
+    
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 550px){
+
+
+
+.image{
+
+    height: 60vh; 
+
+}
+
+
+.header{
+    position: absolute;
+    left: 50%;
+    top: 22% !important; 
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    z-index: 4;
+
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    width: 65vw;
+    line-height: 1.2; 
+    text-align: center;
+
+
+}
+
+
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    -webkit-transform: translate(-50%, -50%) ;
+    -moz-transform: translate(-50%, -50%) ;
+    -ms-transform: translate(-50%, -50%) ;
+    -o-transform: translate(-50%, -50%) ;
+    width: 170px;
+    height: 50px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    outline: 1px solid white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+
+
+
+}
+
+
+@media(max-width: 400px){
+
+    .header{
+
+        width: 80vw !important; 
+        /* Adjust the text clamp here  */
+
+
+    }
+
+
+
+}
+
+
+

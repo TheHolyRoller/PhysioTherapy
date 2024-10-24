@@ -1,0 +1,357 @@
+
+
+
+
+.nav{
+
+
+    min-width: 100vw; 
+    max-width: 100vw; 
+    position: sticky;
+    top: 0;
+    left: 0; 
+    right: 0; 
+    z-index: 20;
+    height: 50px; 
+    background-color: black;
+    margin-top: -0.5rem;
+    overflow-x: hidden !important;
+
+    overflow-y: visible !important;
+    
+
+    
+   
+
+
+}
+
+
+.buttonContainer{
+
+
+    position: relative;
+    /* outline: 4px solid red;  */
+
+}
+
+/* DEPRECATED */
+/* .transButton{
+
+    position: absolute;
+    right: 1%;
+
+    overflow: hidden;
+    z-index: 22;
+
+
+
+} */
+
+/* DEPRECATED */
+/* .trans{
+
+color: white;
+position: absolute;
+right: 7%; 
+top: 50%; 
+margin-top: 0.8rem; 
+} */
+
+
+.book{
+
+position: absolute;
+right: 1%; 
+top: 50%; 
+margin-top: 0.8rem; 
+; 
+
+
+
+color: white; 
+
+
+
+
+}
+
+
+
+/* Add in the Effects here  */
+
+
+/* Add in the Media queries here  */
+
+@media(max-width: 1700px){
+
+    /* Adjust the position of the buttons here  */
+    .trans{
+
+
+        color: white;
+        position: absolute;
+        right: 8%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+
+
+        
+        
+        
+        }
+        
+        
+        .book{
+        
+        position: absolute;
+        right: 1%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+        ; 
+        
+        
+        
+        color: white; 
+        
+        
+        
+        
+        }
+
+
+}
+
+
+@media(max-width: 1300px){
+
+    /* Adjust the position of the buttons here  */
+    .trans{
+
+
+        color: white;
+        position: absolute;
+        right: 12%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+
+
+        
+        
+        
+        }
+        
+        
+        .book{
+        
+        position: absolute;
+        right: 1.5%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+        ; 
+        
+        
+
+        
+        color: white; 
+        
+        
+        
+        
+        }
+
+
+}
+
+
+
+
+@media(max-width: 900px){
+
+    /* Adjust the position of the buttons here  */
+    .trans{
+
+
+        color: white;
+        position: absolute;
+        right: 15%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+
+        
+        }
+        
+        
+        .book{
+        
+        position: absolute;
+        right: 2%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+    
+        
+        color: white; 
+
+        
+        }
+
+
+}
+
+@media(max-width: 600px){
+
+    /* Adjust the position of the buttons here  */
+    .trans{
+
+
+        color: white;
+        position: absolute;
+        right: 25%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+
+         
+        
+        
+        
+        
+        
+        
+        }
+        
+        
+        .book{
+        
+        position: absolute;
+        right: 4%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+        ; 
+        
+        
+
+        
+        color: white; 
+        
+        
+        
+        
+        }
+
+
+}
+
+        
+@media(max-width: 500px){
+
+    /* Adjust the position of the buttons here  */
+    .trans{
+
+
+        color: white;
+        position: absolute;
+        right: 26%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+        
+        
+        
+        }
+        
+        
+        .book{
+        
+        position: absolute;
+        right: 3%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+        ; 
+        
+        
+        
+        color: white; 
+        
+        
+        }
+
+
+}        
+
+@media(max-width: 470px){
+
+    /* Adjust the position of the buttons here  */
+    .trans{
+
+
+        color: white;
+        position: absolute;
+        right: 30%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+
+        
+        
+        
+        }
+        
+        
+        .book{
+        
+        position: absolute;
+        right: 3%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+        ; 
+        
+        
+        
+        color: white; 
+        
+        
+        
+        
+        }
+
+
+}
+
+
+
+@media(max-width: 370px){
+
+    /* Adjust the position of the buttons here  */
+    .trans{
+
+
+        color: white;
+        position: absolute;
+        right: 35%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+
+        
+        }
+        
+        
+        .book{
+        
+        position: absolute;
+        right: 4%; 
+        top: 50%; 
+        margin-top: 0.8rem; 
+        ; 
+        
+        
+        
+        color: white; 
+        
+        
+        
+        
+        }
+
+
+}
+
+
+
