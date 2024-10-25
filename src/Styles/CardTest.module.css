@@ -1,0 +1,72 @@
+
+
+.card{
+    width: 320px;
+    height: 381px;
+    position: relative;
+    z-index: 2;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+.cardImage{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+.textSection{
+
+    position: absolute;
+    bottom: 10%; 
+
+
+}
+
+
+.textHeader{
+
+font-size: 1.875rem;
+font-weight: 700; 
+
+
+width: 80%; 
+/* margin-left: 3%;  */
+margin-left: 20px;
+margin-bottom: 16px;
+
+
+
+
+}
+
+
+
+
+.textBlock{
+
+
+
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 90%;
+    margin-left: 20px;
+
+    margin-bottom: -5px;
+
+}
+
+
+

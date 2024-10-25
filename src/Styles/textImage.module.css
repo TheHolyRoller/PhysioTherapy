@@ -5,14 +5,14 @@
 .textImage{
 
     color: black;
-    outline: 20px solid lime; 
+    /* outline: 20px solid lime;  */
     position: relative;
     height: 633px;
     margin-top: 50rem; 
     font-family: 'Poppins', sans-serif;
     width: 963px;
     overflow: hidden !important;
-    
+
 
 
 }
