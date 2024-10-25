@@ -16,12 +16,18 @@ import Footer from '../../components/Footer';
 import FeatureBlock from '../../components/FeatureBlock'; 
 import DropDown from "@/components/DropDown";
 import NewFooter from '../../components/NewFooter';
+import Card from '../../components/CardTest'; 
 
 
 import img from '../../assets/BankLogo.png'
 // import { Hidden } from "@mui/material";
 
 import CardTest from '../../components/CardTest'; 
+import CardRender from '../../components/CardRender'; 
+import Placement from '../../components/Placement'; 
+
+
+// import { useState } from "react";
 
 
 
@@ -29,6 +35,24 @@ import CardTest from '../../components/CardTest';
 function RootLocalePage({ params: { locale } }: any) {
     // This method is suggested by the next intl docs
     unstable_setRequestLocale(locale);
+
+
+    // Add in the state variable here 
+
+    // const [isMobile, setIsMobile] = useState(false); 
+
+   
+
+
+    // Add in the styles here 
+    const styles = {
+
+
+
+
+
+
+    }
 
     
 
@@ -40,46 +64,56 @@ function RootLocalePage({ params: { locale } }: any) {
       <>
       {/* Add in the Footer Here */}
 
-      <div style={{marginLeft: '-0px', marginBottom: '-1rem', overflowX:'hidden' }} >
+   
 
-      <CardTest/>
 
-      {/* <Nav  />  */}
 
-      {/* <Hero/>  */}
+      {/* <CardTest/> */}
+
+      <Hero/> 
       
-      <div className="transContainer" style={{position: 'fixed', right: '1%', top: '0%', marginTop: '-0.7rem', zIndex: '2000'}} >
+      {/* style={{position: 'fixed', right: '1%', top: '0%', marginTop: '-0.7rem', zIndex: '2000'}} */}
+      <div className="transContainer"  >
       {/* <DropDown/>  */}
-      </div>
 
-      {/* <Hero/> */}
+      <Placement/> 
+      
+
+      </div>
       <div style={{marginTop:'-6px', outline: '0px solid lime', zIndex: '12', overflow: 'hidden' }} >
 
-      {/* <TextElement/>  */}
+      <TextElement/> 
       </div>
       <div className='sliderContainer' style={{position: 'relative', paddingTop: '56vmin', overflowX: 'scroll', maxWidth:'100vw'}} >
-      {/* <Slider/>  */}
+      <Slider/> 
 
       </div>
 
-      {/* <FeatureBlock/>  */}
+      <FeatureBlock/> 
       <div style={{marginBottom: '-2rem', overflow:'hidden', color: 'white'}} >
 
-      {/* <CTA/>  */}
+      <CTA/> 
 
       </div>
 
-      {/* Card  */}
 
-      {/* <CardTest/>  */}
+      <div style={{marginBottom: '-4rem'}} >
+
+      <CardRender/> 
+
+      </div>
 
 
       <div className="newFooter" style={{marginTop: '-13rem', outline: '0px solid lime', height: 'auto'}}  >
-      {/* <NewFooter/>  */}
+      <NewFooter/> 
         </div>      
    
-      </div>
+
+
       {/* <InternationalShowcase /> */}
+
+
+
 
     </>
 

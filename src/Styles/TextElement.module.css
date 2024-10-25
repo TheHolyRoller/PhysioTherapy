@@ -4,17 +4,20 @@
 
 
 
-    width: 99.99vw; 
-    max-width: 100vw; 
+    width: 100vw; 
+    max-width: 105vw;
+    min-width: 105vw; 
+
     height: 120vh; 
 
-    margin: 0rem auto;
+    margin: 0rem auto !important;
     position: relative;
 
     background-color: #0c0d18;
     color: white; 
     /* overflow-x: hidden !important; */
     overflow: hidden !important;
+    /* outline: 4px solid lime; */
     
 
 
@@ -149,7 +152,7 @@ color: #888888;
 
         max-height: 70vh;
         overflow-y: hidden !important;
-        margin-right: -5px !important;
+        /* margin-right: -5px !important; */
 
 
 
@@ -167,6 +170,7 @@ color: #888888;
 
         /* outline: 4px solid lime;  */
         text-align: center;
+
         display: grid; 
         place-items: center; 
 
@@ -300,6 +304,10 @@ color: #888888;
 
 
         max-height: 50vh;
+        width: 105vw; 
+
+        /* margin-left: -5px !important; */
+        /* outline: 5px solid lime; */
         
 
 

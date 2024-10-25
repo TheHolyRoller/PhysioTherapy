@@ -18,13 +18,27 @@
 }
 
 body {
-
+  overflow-x: hidden !important;
   overflow: hidden !important;
+  padding: 0 !important; 
+  margin: 0 !important; 
 
   
 
 }
 
+
+html{
+
+
+  overflow-x: hidden !important;
+  padding: 0 !important; 
+  margin: 0 !important; 
+
+  
+
+
+}
 
 .sliderContainer{
 

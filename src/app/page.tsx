@@ -1,6 +1,7 @@
 import { unstable_setRequestLocale } from "next-intl/server";
 
 import { CardDemo } from "@/components/CardDemo";
+// npx cross-env NODE_ENV=production next build
 
 function RootPage({ params: { locale } }: any) {
   unstable_setRequestLocale(locale);
