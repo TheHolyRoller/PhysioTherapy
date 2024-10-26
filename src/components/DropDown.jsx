@@ -32,6 +32,9 @@
 
   setRotated(!isRotated); 
 
+  console.log('this is the value of rotated \n' + isRotated); 
+  
+
 
   }
 

@@ -7,7 +7,7 @@ import DropDown from '../components/DropDown';
 
 function Placement() {
   return (
-    <div className={p.placer} >
+    <div className={p.placer} style={{position: 'absolute', zIndex: '2000', }}  >
 
     <DropDown/> 
 

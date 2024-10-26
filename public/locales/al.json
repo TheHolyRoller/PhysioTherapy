@@ -1,0 +1,10 @@
+{
+    "Common": {
+      "title": "Mirë se vini",
+      "greeting": "Përshëndetje, {name}!",
+      "description": "Kjo është një demonstrim i ndërkombëtarizimit.",
+      "date": "Data e formatuar: {date}",
+      "number": "Numri i formatuar: {number}"
+    }
+  }
+  

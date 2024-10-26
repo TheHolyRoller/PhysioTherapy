@@ -1,6 +1,6 @@
 // 'use client';
 import InternationalShowcase from "@/components/InternationalShowcase";
-import { useTranslations } from "next-intl";
+import { useTranslations, useFormatter } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import { useNavigate } from 'react-router-dom';
@@ -25,6 +25,7 @@ import img from '../../assets/BankLogo.png'
 import CardTest from '../../components/CardTest'; 
 import CardRender from '../../components/CardRender'; 
 import Placement from '../../components/Placement'; 
+// Import the 
 
 
 // import { useState } from "react";
@@ -40,6 +41,7 @@ function RootLocalePage({ params: { locale } }: any) {
     // Add in the state variable here 
 
     // const [isMobile, setIsMobile] = useState(false); 
+    const t = useTranslations("Common");
 
    
 
@@ -74,10 +76,12 @@ function RootLocalePage({ params: { locale } }: any) {
       
       {/* style={{position: 'fixed', right: '1%', top: '0%', marginTop: '-0.7rem', zIndex: '2000'}} */}
       <div className="transContainer"  >
-      {/* <DropDown/>  */}
 
       <Placement/> 
-      
+
+      {/* <h1 className="text-xl font-bold" style={{color: 'white'}} >{t("title")}</h1> */}
+
+
 
       </div>
       <div style={{marginTop:'-6px', outline: '0px solid lime', zIndex: '12', overflow: 'hidden' }} >
@@ -110,7 +114,7 @@ function RootLocalePage({ params: { locale } }: any) {
    
 
 
-      {/* <InternationalShowcase /> */}
+      <InternationalShowcase />
 
 
 
