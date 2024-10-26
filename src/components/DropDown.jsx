@@ -18,6 +18,8 @@
   import '../Styles/DropDown.css'; 
 
 
+  import { useTranslations, useFormatter } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 
   function DropDown() {
@@ -51,12 +53,14 @@
     
     setCode(code);
     setRotated(!isRotated);
-    // router.push(page); 
-    //  Programmatically navigates to the specified route
+
+
+
   };
 
 
 
+  const t = useTranslations("Common");
 
 
 
@@ -70,6 +74,20 @@
       </label>
     
         <div className="dropDown" >
+
+
+        {/* Add in the text to be translated here */}
+        {/* <div style={{outline: '30px solid lime', position: 'absolute', top: '0', left: '50%', zIndex: '200000'}} >
+
+        <h1>
+        <p>{t("cardText")}</p>
+        </h1>
+
+
+
+        </div> */}
+
+
 
       {/* Add in the dynamic class here  */}
       <div className={`caret-container ${isRotated ? 'rotate' : ''}`} // Rotate container
@@ -99,7 +117,7 @@
       <div className={`list ${isRotated ? 'noList' : ''}`}>
 
       <div className='listOption' >
-      <Link href="/it" passHref>
+      <Link href="/al" passHref>
       {/* onClick={() => navigateToPage('AL')} */}
           <Flag code="AL" className='al'   style={{ width: '30px', height: 'auto' }}/>
         </Link>
@@ -114,13 +132,12 @@
         </div>
 
         <div className='listOption'>
-        {/* Add in the Links here */}
-  {/* onClick={() => handleFlagClick('GR')} */}
-        <Link href="/en"  >
-        
-              </Link>
 
-          <Flag code="GR" className='fr'  style={{ width: '30px', height: 'auto', outline: '0px solid lime' }}  />
+
+
+        <Link href="/es"  >
+          <Flag code="GR" className='fr'  style={{ width: '30px', height: 'auto', outline: '0px solid lime' }}/>
+              </Link>
 
         </div>
 

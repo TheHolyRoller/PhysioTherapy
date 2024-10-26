@@ -25,12 +25,6 @@ import img from '../../assets/BankLogo.png'
 import CardTest from '../../components/CardTest'; 
 import CardRender from '../../components/CardRender'; 
 import Placement from '../../components/Placement'; 
-// Import the 
-
-
-// import { useState } from "react";
-
-
 
 
 function RootLocalePage({ params: { locale } }: any) {
@@ -62,26 +56,14 @@ function RootLocalePage({ params: { locale } }: any) {
 
     return (
       
-      // Workout how to abstract this into a Dropdown menu 
       <>
-      {/* Add in the Footer Here */}
 
-   
-
-
-
-      {/* <CardTest/> */}
 
       <Hero/> 
       
-      {/* style={{position: 'fixed', right: '1%', top: '0%', marginTop: '-0.7rem', zIndex: '2000'}} */}
       <div className="transContainer"  >
 
       <Placement/> 
-
-      {/* <h1 className="text-xl font-bold" style={{color: 'white'}} >{t("title")}</h1> */}
-
-
 
       </div>
       <div style={{marginTop:'-6px', outline: '0px solid lime', zIndex: '12', overflow: 'hidden' }} >
@@ -115,6 +97,10 @@ function RootLocalePage({ params: { locale } }: any) {
 
 
       <InternationalShowcase />
+      <Link href="/al">
+      
+      {/* <h1 style={{color: 'white', outline: '20px solid red'}} >AL</h1> */}
+      </Link>
 
 
 
