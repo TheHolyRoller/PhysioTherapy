@@ -46,7 +46,8 @@ function Hero() {
     Transforming skin regeneration
     </h2>
 
-    <button className={style.cta} >
+    {/* hover:bg-white hover:text-black transition ease-in-out duration-300  */}
+    <button className={`${style.cta} bg-black text-white hover:bg-white hover:text-black transition ease-in-out duration-300 p-4`} >
     Book an Appointment 
     </button>
 
@@ -59,6 +60,7 @@ function Hero() {
         width={500} 
         height={300} 
         className={style.svg}
+
     >
     </Image>
 

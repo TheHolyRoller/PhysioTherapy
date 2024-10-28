@@ -1,9 +1,11 @@
 'use client';
-import {useState} from 'react'; 
+import {use, useState} from 'react'; 
 import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../assets/BankLogo.png'; 
-import n from '../Styles/NewFooter.module.css'; 
+// import n from '../Styles/NewFooter.module.css'; 
+import n from '../Styles/NewFooter.module.css?v=1'; 
+
 // Import the icons here 
 // import {  FaInstagram, FaFacebook } from 'react-icons/fa';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -19,9 +21,11 @@ function NewFooter() {
 
 
 
+
   // Add in the copy to clipboard function here 
 
   const [tooltipOpen, setTooltipOpen] = useState(false); 
+  const [mailToolOpen, setMailToolOpen] = useState(false); 
 
 
 
@@ -58,6 +62,42 @@ function NewFooter() {
 
 
 
+  
+  const mailClipboard = (details) => {
+
+
+    // Take the object that is passed in as an argument and extract it's value
+    navigator.clipboard.writeText(details).then(() => {
+
+
+      // Set the tool is open state variable to false here 
+      setMailToolOpen(true); // Show the tooltip
+      setTimeout(() => {
+        setMailToolOpen(false); // Hide the tooltip after 2 seconds
+      }, 1000);
+
+
+      // alert('Copied to clipboard!'); 
+      console.log('text copied to clipboard'); 
+
+
+
+
+    }).catch((err) => {
+
+      console.error('failed to copy to clipboard! \n' + err); 
+
+
+
+    })
+
+
+  }
+
+
+
+
+
   return (
 
     <footer className={n.footer} >
@@ -84,9 +124,6 @@ function NewFooter() {
     <Image src={Logo} alt='LOGO' width={190} height={180} className={n.logo} /> 
 
     </div>
-
-
-    
     
 
     {/* Add in the Icon List here  */}
@@ -118,7 +155,7 @@ function NewFooter() {
 
     {/* Add an onclick function call here to copy the number to the clipboard */}
     {/* onClose={() => setTooltipOpen(false)} */}
-    <Tooltip className={n.phoneNumToolTip}  title={tooltipOpen ? 'Copied!' : '+355689299077'} arrow open={tooltipOpen}  >
+    <Tooltip className={n.phoneNumToolTip}  title={tooltipOpen ? 'Copied!' : '+355689299077'} arrow open={tooltipOpen}>
     <Tooltip title='+355689299077' >
 
 
@@ -135,13 +172,23 @@ function NewFooter() {
 
 
     </li>
-    <li className={n.email}>
-    {/* Add in the email icon here  */}
-    {/* Add in the email functionality here and the clipboard jacking functionality here */}
+    <li className={n.email}  >
+ 
 
+    <Tooltip className={n.emailToolTip} title={mailToolOpen ? 'Copied!' : 'danielwakeley7@gmail.com'} arrow open={mailToolOpen}>
+
+    <Tooltip title='danielwakeley7@gmail.com'>
+
+    <a href='mailto:danielwakeley7@gmail.com' target='_blank' rel='noopener noreferrer' style={{textDecoration: 'none', background: 'none', border: 'none', color: 'inherit'}} > 
+
+
+
+    <MailIcon  className={n.mailIcon} style={{fontSize: '2.4rem'}}  onClick={() => mailClipboard('danielwakeley7@gmail.com')}  />
     
+    </a>
 
-    <MailIcon style={{fontSize: '2.4rem'}} />
+    </Tooltip>
+    </Tooltip>
 
     </li>
 

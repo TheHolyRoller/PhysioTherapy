@@ -121,12 +121,25 @@ height: 205px;
 .tikTok{
 
     margin-top: -2px; 
+    transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -webkit-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -moz-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -ms-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -o-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+
+}
+
+
+.tikTok:hover{
 
 
 
-
-
-
+    transform:translate(0, -3px) !important;
+    -webkit-transform:translate(0, -3px) !important;
+    -moz-transform:translate(0, -3px) !important;
+    -ms-transform:translate(0, -3px) !important;
+    -o-transform:translate(0, -3px) !important;
+    
 }
 
 
@@ -135,6 +148,31 @@ height: 205px;
 
 
     font-size: 2.5rem !important;
+
+    
+    transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -webkit-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -moz-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -ms-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -o-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+
+
+
+
+
+}
+
+.instagram:hover{
+
+    
+
+
+    transform:translate(0, -3px) !important;
+    -webkit-transform:translate(0, -3px) !important;
+    -moz-transform:translate(0, -3px) !important;
+    -ms-transform:translate(0, -3px) !important;
+    -o-transform:translate(0, -3px) !important;
+    
 
 
 
@@ -147,6 +185,29 @@ height: 205px;
 .facebook{
 
 
+    transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -webkit-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -moz-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -ms-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -o-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+
+
+
+}
+
+
+.facebook:hover{
+
+
+ 
+
+
+
+    transform:translate(0, -3px) !important;
+    -webkit-transform:translate(0, -3px) !important;
+    -moz-transform:translate(0, -3px) !important;
+    -ms-transform:translate(0, -3px) !important;
+    -o-transform:translate(0, -3px) !important;
 
 
 
@@ -156,9 +217,27 @@ height: 205px;
 .phoneNumber{
 
 
-    /* margin-bottom: -1rem; */
     margin-top: 5px; 
-    /* outline: 4px solid lime; */
+    transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -webkit-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -moz-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -ms-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -o-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+
+
+
+
+}
+
+
+.phoneNumber:hover{
+
+
+    transform:translate(0, -3px) !important;
+    -webkit-transform:translate(0, -3px) !important;
+    -moz-transform:translate(0, -3px) !important;
+    -ms-transform:translate(0, -3px) !important;
+    -o-transform:translate(0, -3px) !important;
 
 
 
@@ -168,14 +247,20 @@ height: 205px;
 
 
 .email{
+    transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -webkit-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -moz-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -ms-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -o-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+}
 
 
-    
-
-
-
-
-
+.email:hover{
+    transform:translate(0, -3px) !important;
+    -webkit-transform:translate(0, -3px) !important;
+    -moz-transform:translate(0, -3px) !important;
+    -ms-transform:translate(0, -3px) !important;
+    -o-transform:translate(0, -3px) !important;
 }
 
 
@@ -292,30 +377,51 @@ height: 205px;
 }
 
 
+.facebook:hover{
+
+
+
+
+    
+}
+
+
 .phoneNumber{
 
 
     /* margin-bottom: -1rem; */
     margin-top: 5px; 
-    /* outline: 4px solid lime; */
+    outline: 4px solid lime;
 
+    
 
 
 
 }
+
 
 
 
 .email{
-
-
     
-    /* margin-right: 2.713rem; */
+    
+    
+    position: relative;
+    outline: 4px solid lime;
+    display: none !important;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+
 
 
 
 
 }
+
+
 
 .socialHandle{
     position: absolute;

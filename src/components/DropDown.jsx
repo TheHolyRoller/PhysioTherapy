@@ -1,6 +1,6 @@
 
   'use client';
-  import React, { use, useState } from 'react'
+  import React, { useEffect, useRef, useState } from 'react'
   // Import the SVG flags here 
   import AL from '../assets/al.svg'; 
   import FR from '../assets/fr.svg'; 
@@ -28,6 +28,28 @@ import { unstable_setRequestLocale } from "next-intl/server";
     const [isRotated, setRotated] = useState(true); 
 
     const [flagCode, setCode] = useState('AL'); 
+
+    const menuRef = useRef(null);
+
+    useEffect(() => {
+      const handleClick = (event) => {
+        // Check if click is outside of the menu
+        if (menuRef.current && !menuRef.current.contains(event.target)) {
+          console.log('Clicked outside, closing menu');
+          setRotated(true);
+        }
+      };
+    
+      // Add event listener on component mount
+      document.addEventListener('mousedown', handleClick);
+    
+      // Clean up the event listener on unmount
+      return () => {
+        document.removeEventListener('mousedown', handleClick);
+      };
+    }, [isRotated]); // Empty dependency array ensures this runs only once
+    
+
    
   const handleCaretClick = () => {
 
@@ -73,7 +95,7 @@ import { unstable_setRequestLocale } from "next-intl/server";
       Language 
       </label>
     
-        <div className="dropDown" >
+        <div className="dropDown" ref={menuRef} >
 
 
         {/* Add in the text to be translated here */}
@@ -105,10 +127,8 @@ import { unstable_setRequestLocale } from "next-intl/server";
 
       <div className='defaultOption' >
 
-
-
-  {/* Make this dynamic */}
       <Flag code={flagCode} style={{ width: '30px', height: 'auto', outline:'0px solid lime' }}/>
+
 
       </div>
 
@@ -117,12 +137,13 @@ import { unstable_setRequestLocale } from "next-intl/server";
       <div className={`list ${isRotated ? 'noList' : ''}`}>
 
       <div className='listOption' >
-      <Link href="/al" passHref>
+      <Link href="/es" passHref>
       {/* onClick={() => navigateToPage('AL')} */}
-          <Flag code="AL" className='al'   style={{ width: '30px', height: 'auto' }}/>
+          <Flag code="AL" className='al' onClick={() => navigateToPage('AL', '/en')}   style={{ width: '30px', height: 'auto' }}/>
         </Link>
         </div>
-        
+
+
         
         <div className='listOption' >
         {/* <Link href={'/fr'} >
@@ -136,7 +157,7 @@ import { unstable_setRequestLocale } from "next-intl/server";
 
 
         <Link href="/es"  >
-          <Flag code="GR" className='fr'  style={{ width: '30px', height: 'auto', outline: '0px solid lime' }}/>
+          <Flag code="GR" className='fr'  onClick={() => navigateToPage('GR','/en')}  style={{ width: '30px', height: 'auto', outline: '0px solid lime' }}/>
               </Link>
 
         </div>

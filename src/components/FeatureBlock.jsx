@@ -19,6 +19,7 @@ function FeatureBlock() {
     <Image src={physio} alt='physio' width={500} height={700} className={fb.image} ></Image>
 
 
+
     <div className={fb.textSection} >
 
     <h3 className={fb.header} >

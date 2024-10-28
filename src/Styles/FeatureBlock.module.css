@@ -120,6 +120,29 @@
     outline: 1px solid grey;
     border: none !important;
     cursor: pointer;
+
+
+    transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -webkit-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -moz-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -ms-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -o-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+
+
+
+
+}
+
+
+.book:hover{
+
+
+    
+color: black; 
+background-color: white;
+
+
+
 }
 
 
@@ -133,6 +156,7 @@
     margin-top: -1rem; 
     margin-left: 1rem; 
     /* outline: 4px solid lime;  */
+
 
 
 }

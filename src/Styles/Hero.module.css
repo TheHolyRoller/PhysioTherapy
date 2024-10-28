@@ -29,6 +29,8 @@
 }
 
 
+
+
 .image{
 
 max-width: 100vw;
@@ -122,23 +124,33 @@ object-fit: cover;
     color: white;
     min-height: 48px;
     width: 212px;
-    /* outline: 1px solid #fff; */
-    border-radius: 30px;
+    /*outline: 1px solid #fff;
+    */border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
-    background-color: transparent !important; 
-
+    background-color: transparent !important;
     opacity: 1;
-
-
     box-shadow: none;
     outline: none!important;
-    border: 1px solid white; 
-    cursor: pointer; 
-    
-    
+    border: 1px solid white;
+    cursor: pointer;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cta:hover{
+
+
+    color: black !important; 
+    background-color: white !important;
+
+
+
 }
 
 

@@ -31,6 +31,7 @@ overflow: hidden !important;
 }
 
 
+
 .header{
     position: absolute;
     left: 50%;
@@ -81,9 +82,21 @@ overflow: hidden !important;
     color: white;
     cursor: pointer;
     border: 1px solid white !important;
+
     
+    transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -webkit-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -moz-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -ms-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+    -o-transition: cubic-bezier(0.25, 0.46, 0.45, 1.94);
+
+}
 
 
+.button:hover{
+
+color: black; 
+background-color: white;
 
 
 }
@@ -114,6 +127,7 @@ overflow: hidden !important;
     
     }
     
+
     
     
     .button{
@@ -137,8 +151,14 @@ overflow: hidden !important;
         -o-border-radius: 20px;
 
 
+        /* outline: 20px solid lime !important; */
+
+
+
 
     }
+
+
     
     
 
