@@ -40,6 +40,7 @@ function TextElement() {
 
     </h3>
 
+
     {/* Add in the main text here  */}
     <div className={t.textSection}>
     {/* TextElemBlock */}
