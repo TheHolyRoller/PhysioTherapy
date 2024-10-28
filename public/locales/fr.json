@@ -1,9 +1,22 @@
 {
   "Common": {
-    "title": "Bienvenue",
-    "greeting": "Bonjour, {name}!",
-    "description": "Ceci est une démonstration de l'internationalisation.",
-    "date": "Date formatée : {date}",
-    "number": "Nombre formaté : {number}"
+    "title": "Benvenuto",
+    "greeting": "Ciao, {name}!",
+    "description": "Questa è una dimostrazione dell'internazionalizzazione.",
+    "date": "Data formattata: {date}",
+    "number": "Numero formattato: {number}",
+    "cardText": "Numero della carta", 
+    "StrapLine": "Trasformazione della rigenerazione della pelle", 
+    "Book": "Prenota un Appuntamento", 
+    "TextHeader": "Il Dispositivo Ligō", 
+    "TextElemBlock": "Il dispositivo Ligō è composto da una testina di stampa montata su un braccio robotico, sistemi di controllo della stampa e una matrice biomateriale stampabile. Ligō stampa minuscole gocce contenenti le cellule della pelle del paziente e biomateriale per creare un nuovo strato di pelle dove è stato danneggiato.",
+    "DoctorName": "Brian Coan, MD FACS", 
+    "FeatureBlockHeader": "Chirurgo Plastico Doppia Certificazione di Livello Nazionale", 
+    "FeatureBlockText": "Il Dr. Brian S. Coan è un chirurgo plastico di fama nazionale, con doppia certificazione, ed è membro del Collegio Americano dei Chirurghi (FACS).",
+    "FeatureBook": "Prenota Ora", 
+    "CTAText": "Prenota la tua prossima sessione di terapia", 
+    "CTABook": "PRENOTA ORA", 
+    "CardHeader": "Sfondi Sovrapposti", 
+    "CardText": "Questa carta è per alcuni elementi speciali, come la visualizzazione degli sfondi solo al passaggio del mouse"
   }
 }

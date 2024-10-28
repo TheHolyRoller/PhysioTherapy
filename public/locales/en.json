@@ -4,6 +4,20 @@
     "greeting": "Hello, {name}!",
     "description": "This is an internationalization demonstration.",
     "date": "Formatted Date: {date}",
-    "number": "Formatted Number: {number}"
+    "number": "Formatted Number: {number}", 
+    "StrapLine": "Transforming skin regeneration",
+    "Book": "Book an Appointment", 
+    "TextHeader": "The Ligō Device", 
+    "TextElemBlock": "The Ligō device comprises a printhead mounted on a robotic arm, printing control systems and a printable biomaterial matrix. The Ligō prints tiny droplets containing the patient’s skin cells and biomaterial to create a new layer of skin where it has been damaged.", 
+    "DoctorName": "Brian Coan, MD FACS", 
+    "FeatureBlockHeader": "Award Winning, Nationally Recognized Double Board-Certified Plastic Surgeon", 
+    "FeatureBlockText": " Dr. Brian S. Coan is an award-winning, nationally renowned, double board-certified Plastic Surgeon and a member of the distinguished Fellow of the American College of Surgeons (FACS). ", 
+    "FeatureBook": " Book Now", 
+    "CTAText": "Book your next Therapy Session ", 
+    "CTABook": "BOOK NOW ", 
+    "CardHeader": "Background Overlays", 
+    "CardText": "This card is for some special elements, like displaying background gifs on hover only"
+
+    
   }
 }

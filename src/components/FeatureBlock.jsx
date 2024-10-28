@@ -8,7 +8,18 @@ import physio from '../assets/physio.jpg';
 import fb from '../Styles/FeatureBlock.module.css'; 
 
 
+import { useTranslations, useFormatter } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
+
+
+
+
 function FeatureBlock() {
+
+
+  const t = useTranslations("Common");
+
+
   return (
 
     <div className={fb.mainContainer} >
@@ -23,36 +34,43 @@ function FeatureBlock() {
     <div className={fb.textSection} >
 
     <h3 className={fb.header} >
-    Brian Coan,
-    MD FACS
+
+    {/* DoctorName */}
+    {t("DoctorName")}
+
+    {/* Brian Coan, MD FACS */}
 
     </h3>
 
     <div className={fb.firstTextBlock} >
-    Award Winning, Nationally Recognized Double Board-Certified Plastic Surgeon
+
+    {/* FeatureBlockHeader */}
+    {t("FeatureBlockHeader")}
+    {/* Award Winning, Nationally Recognized Double Board-Certified Plastic Surgeon */}
 
 
     </div>
 
     <div className={fb.secondTextBlock} >
-    Dr. Brian S. Coan is an award-winning, nationally renowned, double board-certified Plastic Surgeon and a member of the distinguished Fellow of the American College of Surgeons (FACS). 
+
+    {/* FeatureBlockText */}
+    {t("FeatureBlockText")}
+    {/* Dr. Brian S. Coan is an award-winning, nationally renowned, double board-certified Plastic Surgeon and a member of the distinguished Fellow of the American College of Surgeons (FACS).  */}
 
     </div>
-
 
     {/* Add in a booking button here  */}
     <button className={fb.book} >
 
-    Book Now 
+    {/* FeatureBook */}
+    {t("FeatureBook")}
+    {/* Book Now  */}
 
     </button>
-
 
     </div>
     
     </section>
-
-
 
     </div>
 

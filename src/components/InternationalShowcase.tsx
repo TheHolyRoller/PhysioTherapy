@@ -16,6 +16,7 @@ const InternationalShowcase = () => {
     hour12: true,
   });
 
+  
   const formattedNumber = useFormatter().number(123456789, {
     style: "currency",
     currency: "USD",

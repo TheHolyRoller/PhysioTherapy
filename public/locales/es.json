@@ -5,6 +5,18 @@
     "description": "Kjo është një demonstrim i ndërkombëtarizimit.",
     "date": "Data e formatuar: {date}",
     "number": "Numri i formatuar: {number}",
-    "cardText": "Numri i cardes"
+    "cardText": "Numri i kartës", 
+    "StrapLine": "Transformimi i rigjenerimit të lëkurës", 
+    "Book": "Rezervo një Takim", 
+    "TextHeader": "Pajisja Ligō", 
+    "TextElemBlock": "Pajisja Ligō përbëhet nga një kokë printimi e montuar në një krah robotik, sisteme të kontrollit të printimit dhe një matricë biomateriale e printueshme. Ligō printon pika të vogla që përmbajnë qeliza të lëkurës së pacientit dhe biomaterial për të krijuar një shtresë të re të lëkurës aty ku është dëmtuar.",
+    "DoctorName": "Brian Coan, MD FACS", 
+    "FeatureBlockHeader": "Kirurg Plastik i Certifikuar Dyfish me Çmime Kombëtare", 
+    "FeatureBlockText": "Dr. Brian S. Coan është një kirurg plastik i njohur kombëtarisht, i certifikuar dyfish dhe anëtar i Shoqatës së Kirurgëve të Kolegjit Amerikan (FACS).",
+    "FeatureBook": "Rezervo Tani", 
+    "CTAText": "Rezervo Seancën tënde të Radhës të Terapisë", 
+    "CTABook": "REZERVO TANI", 
+    "CardHeader": "Sfondet Mbi-vendosëse", 
+    "CardText": "Kjo kartë është për disa elemente të veçanta, siç janë shfaqjet e sfondit vetëm kur kaloni mbi të"
   }
 }

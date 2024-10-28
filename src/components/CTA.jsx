@@ -10,7 +10,17 @@ import Footer from './Footer';
 
 
 
+import { useTranslations, useFormatter } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
+
+
+
 function CTA() {
+  
+  const t = useTranslations("Common");
+  
+  
+  
   return (
     <section className={c.CTA} >
 
@@ -25,10 +35,10 @@ function CTA() {
 
     <h4 className={c.header} >
 
+    {/* CTAText */}
+    {t("CTAText")}
 
-
-    Book your next
-    Therapy Session 
+    {/* Book your next Therapy Session  */}
 
     </h4>
 
@@ -36,16 +46,12 @@ function CTA() {
     
     <button className={c.button} >
 
-    BOOK NOW    
+    {/* CTABook */}
+    {t("CTABook")}
+    {/* BOOK NOW     */}
 
     </button>
 
-    <div className='' style={{marginBottom: '-0px'}} >
-
-
-    {/* <Footer/>  */}
-    </div>
-    
 
     </section>
   )

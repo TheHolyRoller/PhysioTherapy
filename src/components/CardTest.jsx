@@ -6,9 +6,16 @@ import plasma from '../assets/backrub.jpg';
 
 import ct from '../Styles/CardTest.module.css'; 
 
+import { useTranslations, useFormatter } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
+
+
+
+
 function CardTest() {
 
 
+  const t = useTranslations("Common");
 
 
 
@@ -18,27 +25,26 @@ function CardTest() {
     {/* Add in the image here  */}
     <Image className={ct.cardImage}  src={plasma} alt='alt' width={320} height={382}/>
 
-    
 
-
-
-    {/* Add in the text section here  */}
     <div className={ct.textSection} >
 
       {/* Add in the header here  */}
     <h5 className={ct.textHeader} >
 
-    Background Overlays
 
-
+    {/* CardHeader */}
+    {t("CardHeader")}
+    {/* Background Overlays */}
 
     </h5>
 
 
 
-    <div className={ct.textBlock} >
+    <div className={ct.textBlock}>
 
-    This card is for some special elements, like displaying background gifs on hover only
+    {/* CardText */}
+    {t("CardText")}
+    {/* This card is for some special elements, like displaying background gifs on hover only */}
 
     </div>
 

@@ -7,7 +7,19 @@ import Image from 'next/image';
 import SVG from '../assets/WebScroll.svg'; 
 
 
+import { useTranslations, useFormatter } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
+
+
+
+
+
+
 function Hero() {
+
+  const t = useTranslations("Common");
+
+
   return (
     <section className={style.hero} >
 
@@ -43,12 +55,18 @@ function Hero() {
 
 
     <h2 className={style.strapLine} >
-    Transforming skin regeneration
+
+    {/* StrapLine  */}
+    {t("StrapLine")}
+    {/* Transforming skin regeneration */}
     </h2>
 
     {/* hover:bg-white hover:text-black transition ease-in-out duration-300  */}
-    <button className={`${style.cta} bg-black text-white hover:bg-white hover:text-black transition ease-in-out duration-300 p-4`} >
-    Book an Appointment 
+    <button className={`${style.cta} bg-black text-white hover:bg-white hover:text-black transition ease-in-out duration-300 p-4`}>
+
+    {/* Book */}
+    {t("Book")}
+    {/* Book an Appointment  */}
     </button>
 
     {/* Add in the SVG here  */}
